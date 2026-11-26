@@ -1,0 +1,27 @@
+{
+  "name": "찬밥식당 레시피북",
+  "short_name": "찬밥식당",
+  "description": "유튜브 찬밥식당(찬재) 508편 영상을 정리한 인터랙티브 레시피북 — 66 레시피, 만능소스 4종, 냉장고 재료 매칭.",
+  "lang": "ko",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#FAF6EF",
+  "theme_color": "#2D2118",
+  "categories": ["food", "lifestyle", "books"],
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
