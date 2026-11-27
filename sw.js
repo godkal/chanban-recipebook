@@ -3,7 +3,7 @@
  * - 화면 이동은 네트워크 우선(실패 시 캐시), 나머지 자산은 Stale-While-Revalidate 로
  *   새 배포가 다음 방문에 바로 반영된다.
  */
-const CACHE = 'chanban-recipebook-v7';
+const CACHE = 'chanban-recipebook-v8';
 const ASSETS = [
   './',
   './index.html',
