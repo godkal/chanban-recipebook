@@ -1,7 +1,9 @@
-# 찬밥식당 인터랙티브 레시피북
+# 찬밥식당 레시피북 (배포본)
 
-유튜브 채널 **찬밥식당**의 레시피 66가지와 영상 508편을 정리한 인터랙티브 레시피북입니다.
+`work/찬밥식당_레시피북.html` 을 `index.html` 로 올린 정적 사이트. GitHub Pages(main, root)로 서비스한다.
 
-- 웹 주소: https://godkal.github.io/chanban-recipebook/
-- 구성: 📖 레시피북 · 🧊 냉장고 재료 매칭 · 🛒 쟁여템 장보기 & 만능소스 · 📺 전체 508편 인덱스
-- `index.html` 한 파일로 동작합니다(외부 CSS/JS 없음).
+- 상세 레시피 750개 / 영상 139편 + 쇼츠 369편
+- 조리 단계별 실제 스틸컷: 125개 요리 · 353장 (`stills/<key>/<번호>.webp`, 640×360 WebP)
+- 서비스 워커 캐시: `chanban-recipebook-v16`
+
+갱신: 원본에서 `python3 build.py` → `cp` 로 `index.html`·`sw.js`·`stills/` 반영 → commit·push.
